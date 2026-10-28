@@ -1,0 +1,26 @@
+InkPage Markdown 1.2.0 - Third-party notices
+
+The project itself has no open-source license at present.
+The following components retain their respective licenses.
+
+Microsoft.Web.WebView2 SDK 1.0.4258.31
+https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.4258.31
+Copyright Microsoft Corporation.
+License: app/LICENSE-WebView2.txt
+The SDK is restored at build time. The application uses the installed
+Microsoft Edge WebView2 Runtime.
+
+markdown-it 15.0.3
+https://www.npmjs.com/package/markdown-it/v/15.0.3
+Copyright Vitaly Puzrin, Alex Kocharin and contributors.
+MIT license: app/LICENSE-markdown-it.txt
+The upstream browser distribution is bundled in app/markdown-it.min.js.
+
+DOMPurify 3.4.17
+https://www.npmjs.com/package/dompurify/v/3.4.17
+Copyright Mario Heiderich and contributors.
+Dual license Apache-2.0 OR MPL-2.0:
+app/LICENSE-DOMPurify-Apache.txt
+app/LICENSE-DOMPurify-MPL.txt
+
+No CDN is required for the bundled JavaScript during normal application use.

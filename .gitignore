@@ -1,0 +1,46 @@
+# Build products and downloaded SDKs
+/dist/
+/.deps/
+/artifacts/
+/bin/
+/obj/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.nupkg
+
+# Runtime state and generated test output
+/.test-output/
+/work/
+**/WebView/
+**/WebView2/
+**/EBWebView/
+*.WebView2/
+draft.json
+result.txt
+*.log
+*.tmp
+
+# Local tools, settings, and secrets
+.vs/
+.vscode/
+.idea/
+.codex/
+.agents/
+node_modules/
+.env
+.env.*
+!.env.example
+*.user
+*.suo
+*.local
+*.pem
+*.key
+*.pfx
+*.p12
+Thumbs.db
+Desktop.ini
+.DS_Store
+__pycache__/
+*.pyc
